@@ -13,5 +13,5 @@ probability called the infection rate. At every time step, if an agent is infect
 called the death rate however if it has been infected for longer that the maximum infection time the state of 
 the agent is changed to recovered.
 
-Run server.py to run the model
+Run server.py to run the model 
 Model parameters set as constants at top of server.py
