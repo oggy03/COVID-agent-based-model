@@ -56,7 +56,7 @@ class AgentSchelling(Agent):
                     other.infection = self.model.schedule.time
 
     def die_or_survive(self):
-        """if you are lucky you will survive else you will die"""
+        """chooses whether agent dies or survives"""
         if self.status == 1:
             # choose randomly to die or survive
             alive = np.random.choice([0, 1], p=[self.die_rate, 1-self.die_rate])
